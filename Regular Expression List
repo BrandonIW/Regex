@@ -16,7 +16,7 @@ Notes: Matches SIN format but must have consistent format of either groups of 3 
 
 Personal Health Number
 Regex:
-(\d{4}\s\d{3}\s\d{3})|(\d{4}-\d{3}-\d{3})
+(\b\d{4}\s\d{3}\s\d{3}\b)|(\b\d{4}-\d{3}-\d{3}\b)
 
 Notes:
 Matches SIN format but must have consistent format where groups of numbers are separated by either - or whitespace. Will not match 10 digits in a row
