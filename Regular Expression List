@@ -3,7 +3,7 @@ Regex:
 ((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)
 
 Notes:
-Will match IP. No boundaries set. 
+Will match IP. No boundaries set. i.e. it will match the IP format even if it is immediately surrounded by other characters, e.g. Hello192.168.0.1Hello. Add \b on either side to setup boundaries. 
 
 
 Mastercard:
