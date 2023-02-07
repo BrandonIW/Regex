@@ -1,3 +1,11 @@
+Address:
+Regex:
+\d{2,5}[A-z\s]+(St.|Ave|Rd|Dr)(ave|avenue|blvd|Boulevard|st|street|Alley|aly|Meadow|Road|rd|Plaza|plza|Parkway|pwy|Grove|gr|Drive|dr|Crest|crst|crescent|cr|Court|ct)\b
+
+Notes:
+Scuffed and needs a lot of work. Basic regex to match a pattern for an address. But it's pretty bad at the moment.
+
+
 Bank Info:
 Regex:
 (\b\d{5} \d{3} \d{7}\b)|(\b\d{5}-\d{3}-\d{7}\b)
