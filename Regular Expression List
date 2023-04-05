@@ -1,3 +1,9 @@
+Get-Childitem Parser
+Regex:
+^(\S+)\s+(\d{1,2}\/\d{1,2}\/\d{4})\s+(\d{1,2}:\d{1,2}\s+[AP]M)\s+(\d+)\s+(.+)$
+
+Notes: Can take the output of Powershell's Get-Childitems and parses into their respective 5 groups/columns
+
 Address:
 Regex:
 \d{2,5}[A-z\s]+(St.|Ave|Rd|Dr)(ave|avenue|blvd|Boulevard|st|street|Alley|aly|Meadow|Road|rd|Plaza|plza|Parkway|pwy|Grove|gr|Drive|dr|Crest|crst|crescent|cr|Court|ct)\b
